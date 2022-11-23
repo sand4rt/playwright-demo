@@ -4,7 +4,7 @@ import { App } from './App';
 test.describe('dark mode', () => {
   test.use({ colorScheme: 'dark' });
 
-  test('visual', async ({ page, mount }) => {
+  test('visual', async ({ mount }) => {
     const component = await mount(<App />);
     await expect(component).toHaveScreenshot();
   });
