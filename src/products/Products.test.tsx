@@ -16,4 +16,4 @@ test('http intercepting', async ({ page, mount }) => {
   await expect(listitem.nth(1)).toHaveText('Desktop');
   await expect(listitem.nth(2)).toHaveText('Laptop');
   await expect(listitem).toHaveCount(3);
-})
+});
