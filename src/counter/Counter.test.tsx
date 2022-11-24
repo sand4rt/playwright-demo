@@ -4,7 +4,7 @@ import { Counter } from './Counter';
 test('render', async ({ mount }) => {
   const component = await mount(<Counter initialCount={100} />);
   await expect(component).toContainText('100');
-})
+});
 
 test('interacting', async ({ mount }) => {
   const component = await mount(<Counter />);
