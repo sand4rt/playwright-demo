@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 async function getProducts(): Promise<string[]> {
   const response = await fetch('/api/v1/products.json');

@@ -1,7 +1,7 @@
-import { Counter } from './counter/Counter'
-import { Login } from './login/Login'
-import { Products } from './products/Products'
-import './App.css'
+import { Counter } from './counter/Counter';
+import { Login } from './login/Login';
+import { Products } from './products/Products';
+import './App.css';
 
 export function App() {
   return (
@@ -15,7 +15,7 @@ export function App() {
         <Login />
       </div>
       <div className="card">
-        <h3>Product list</h3>
+        <h3>Products</h3>
         <Products />
       </div>
     </div>

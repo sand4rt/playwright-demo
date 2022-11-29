@@ -9,10 +9,12 @@ test('render', async ({ mount }) => {
 test('interacting', async ({ mount }) => {
   const component = await mount(<Counter />);
 
-  await component.click();
+  await component.getByRole('button').click();
   await expect(component).toContainText('1');
-  await component.click();
+
+  await component.getByRole('button').click();
   await expect(component).toContainText('2');
-  await component.click();
+  
+  await component.getByRole('button').click();
   await expect(component).toContainText('3');
 });

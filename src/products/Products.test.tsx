@@ -1,5 +1,5 @@
-import { expect, test } from "@playwright/experimental-ct-react";
-import { Products } from "./Products";
+import { expect, test } from '@playwright/experimental-ct-react';
+import { Products } from './Products';
 
 test('http intercepting', async ({ page, mount }) => {
   await page.route('/api/v1/products.json', async (route) => {

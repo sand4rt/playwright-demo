@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from 'react';
+import { Popup } from '../Popup/Popup';
 
 type CounterProps = {
   initialCount?: number;
@@ -11,5 +12,8 @@ export function Counter({ initialCount = 0 }: CounterProps) {
     setCount((count) => count + 1);
   }
 
-  return <button onClick={onClick}>{count}</button>
+  return <div>
+    {/* <Popup /> */}
+    <button onClick={onClick}>{count}</button>
+  </div>
 }

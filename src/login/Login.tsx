@@ -1,4 +1,4 @@
-import { FormEvent } from "react";
+import { FormEvent } from 'react';
 
 export function Login() {
   function submit(event: FormEvent<HTMLFormElement>) {
