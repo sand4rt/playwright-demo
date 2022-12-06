@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "wordpress_sec_796acb9dc586929dd60023b5feebcbf5",
-      "value": "Admini12%7C1669991386%7CyRWYjYW04xCXw5Zk9FeRtmaZwwfJo0cIV91yJe3baA8%7C2beeedf66cf6897c6125d43ce0c1b46f8c28d1a73ea928c4797e986d6b50ec21",
+      "value": "Admini12%7C1670501949%7CGLp79pIkn84MCRLXX3PUfOoyJGo0uxzWIgCZmMznjRb%7C3266c8185d3200bc12eebc2c39ab1d0643a7169028228709dc7d4f51d16b595b",
       "domain": "kemm-it.nl",
       "path": "/wp-content/plugins",
       "expires": -1,
@@ -12,7 +12,7 @@
     },
     {
       "name": "wordpress_sec_796acb9dc586929dd60023b5feebcbf5",
-      "value": "Admini12%7C1669991386%7CyRWYjYW04xCXw5Zk9FeRtmaZwwfJo0cIV91yJe3baA8%7C2beeedf66cf6897c6125d43ce0c1b46f8c28d1a73ea928c4797e986d6b50ec21",
+      "value": "Admini12%7C1670501949%7CGLp79pIkn84MCRLXX3PUfOoyJGo0uxzWIgCZmMznjRb%7C3266c8185d3200bc12eebc2c39ab1d0643a7169028228709dc7d4f51d16b595b",
       "domain": "kemm-it.nl",
       "path": "/wp-admin",
       "expires": -1,
@@ -32,7 +32,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "1rvflrea18d4pt72fbp7k1qgkq",
+      "value": "0l4qejukn43r9qek0lf4kgj0e6",
       "domain": "kemm-it.nl",
       "path": "/",
       "expires": -1,
@@ -42,7 +42,7 @@
     },
     {
       "name": "wordpress_logged_in_796acb9dc586929dd60023b5feebcbf5",
-      "value": "Admini12%7C1669991386%7CyRWYjYW04xCXw5Zk9FeRtmaZwwfJo0cIV91yJe3baA8%7C1f033d61d5f4fe7895452c9b526b79ca44f29cd77a58a406a528676cdac6c2e4",
+      "value": "Admini12%7C1670501949%7CGLp79pIkn84MCRLXX3PUfOoyJGo0uxzWIgCZmMznjRb%7Cf44a7f1b73e1a7edffa34d23372126ff59015cc289d65f25d5d5fcb30c656cde",
       "domain": "kemm-it.nl",
       "path": "/",
       "expires": -1,
@@ -55,17 +55,17 @@
       "value": "deleted",
       "domain": "kemm-it.nl",
       "path": "/",
-      "expires": 1701354588.552918,
+      "expires": 1701865150.459143,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "wp-settings-time-1",
-      "value": "1669818587",
+      "value": "1670329150",
       "domain": "kemm-it.nl",
       "path": "/",
-      "expires": 1701354588.553072,
+      "expires": 1701865150.459176,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
