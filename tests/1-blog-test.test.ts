@@ -33,6 +33,7 @@ test('write a comment', async ({ page }) => {
 });
 
 test('write same comment', async ({ page }) => {
+  await page.pause();
   await page.goto('/');
   
   await test.step('search blog', async () => {

@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+test.describe.configure({ mode: 'serial' });
 
 test.describe('Login', () => {
   test('create login cookie', async ({ page }) => {
