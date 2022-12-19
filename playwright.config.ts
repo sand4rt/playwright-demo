@@ -38,7 +38,10 @@ const config: PlaywrightTestConfig = {
     /* Base URL to use in actions like `await page.goto('/')`. */// http://localhost:3000
     baseURL: 'https://kemm-it.nl',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    /* trace: 'on', with every test there is a trace created */
+    /* trace: 'on-first-retry', Record a trace only when retrying a test for the first time. */
+    trace: 'on',
+
   },
 
   /* Configure projects for major browsers */
