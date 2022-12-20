@@ -12,8 +12,8 @@ test('http intercepting', async ({ page, mount }) => {
   const component = await mount(<Products />);
 
   const listitem = component.getByRole('listitem');
-  await expect(listitem.nth(0)).toHaveText('Monitor');
-  await expect(listitem.nth(1)).toHaveText('Desktop');
-  await expect(listitem.nth(2)).toHaveText('Laptop');
+  await expect(listitem.nth(0)).toHaveText('Desktop');
+  await expect(listitem.nth(1)).toHaveText('Laptop');
+  await expect(listitem.nth(2)).toHaveText('Monitor');
   await expect(listitem).toHaveCount(3);
 });

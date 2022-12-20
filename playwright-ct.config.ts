@@ -45,8 +45,9 @@ const config: PlaywrightTestConfig = {
     },
     {
       name: 'webkit',
+      
       use: {
-        ...devices['Desktop Safari'],
+        ...devices['iPhone 11'],
       },
     },
   ],
