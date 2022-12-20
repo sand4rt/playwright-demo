@@ -35,7 +35,7 @@ test.describe('upload', () => {
       page.waitForEvent('filechooser'),
       await page.getByRole('button', { name: 'Bestanden selecteren' }).click(),
     ]);
-    await fileChooser.setFiles(['./upload/Red_rose.jpg', './upload/Enqore.png', './upload/Red_rose.jpg']);
+    await fileChooser.setFiles(['./upload/Red_rose.jpg', './upload/Enqore.png', './upload/Red_rose1.jpg']);
   });
 
   test.afterAll(async ({ page }) => {
